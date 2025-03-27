@@ -22,13 +22,6 @@ npm install
 
 Rename `.env.example` to `.env` and update values as needed.
 
-Alternatively, manually set the API key:
-
-```
-set VALID_USER=your-username
-set VALID_PASS=your-password
-```
-
 ## 3. Run Tests
 
 To execute tests, use:
