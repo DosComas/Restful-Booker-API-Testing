@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "API Automation Suite Using Supertest and Mocha",
     "scripts": {
-        "test": "mocha tests/**/*.spec.js --timeout 7000 --reporter mochawesome --reporter-options reportDir=test-results,overwrite=true,html=true,json=true,charts=true"
+        "test": "mocha --file tests/test.setup.js \"tests/*.spec.js\" --timeout 7000 --reporter mochawesome --reporter-options reportDir=test-results,overwrite=true,html=true,json=true,charts=true"
     },
     "dependencies": {
         "@faker-js/faker": "^9.6.0",
